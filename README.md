@@ -2,13 +2,13 @@
 # User Input and Output in Python
 
 ## Introduction
-Sometimes, you'll want Python to ask users for a certain input. This is where User Input and Output can help!
+Sometimes, you'll want Python to ask users for a certain input. This is where user inputs can help!
 
 
 ## Objectives 
 
 You will be able to:
-* Get User input as strings and numbers, process the data and output the results
+* Get user input as strings and numbers, process the data, and output the results
 
 ## User input in Python
 
@@ -26,11 +26,11 @@ print("Your name is " + name)
     Your name is Billy
 
 
-What happens at the end of `input(`) is that it waits for the user to type something and press ENTER. Only after the user presses ENTER does the program continue.
+What happens at the end of `input()` is that it waits for the user to type something and press ENTER. Only after the user presses ENTER does the program continue.
 
 ## Manipulating strings (a few ways)
 
-What you get from the `input()` function is a string. What can you do with it?
+What you get from the `input()` function is always a string. What can you do with it?
 
 First: Make the string into a number. Let’s say you are 100% positive that the user entered a number. You can turn the string into an integer with the function `int()`. (Later we will see what to do when the user does NOT enter a number and you try to do this, for now, don’t worry about that problem). 
 
@@ -47,7 +47,7 @@ print ("You are", age , "years old" )
     You are 43 years old
 
 
-Unlike using `+` for string concatenation as seen earlier, we simply use a `,` for joining strings with numbers. You can also convert an `int` to `str` and use concatenation normally. e.g.
+Unlike using `+` for string concatenation as seen earlier, we simply use a `,` for joining strings with numbers. You can also convert an `int` to `str` and use concatenation normally: 
 
 
 ```python
@@ -58,13 +58,13 @@ print ("You are " + str(age) + " years old")
 
 
 ## Example: 
-Let's create a program that asks the user to enter their name and their age. Print out a message addressed to them that tells them the year that they will turn 100 years old.
+Let's create a program that asks the user to enter their name, age, and the current year. Print out a message addressed to them that tells them the year that they will turn 100 years old.
 
 
 ```python
 name = input("What is your name: ")
 age = int(input("How old are you: "))
-current_year = int(input("what is the current year: "))
+current_year = int(input("What is the current year: "))
 year = str((current_year - age)+100)
 print(name + " will be 100 years old in the year " + year)
 ```
