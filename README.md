@@ -8,7 +8,7 @@ Sometimes, you'll want Python to ask users for a certain input. This is where us
 ## Objectives 
 
 You will be able to:
-* Get user input as strings and numbers, process the data, and output the results
+- Get user input as strings and numbers, process the data, and output the results
 
 ## User input in Python
 
@@ -32,7 +32,7 @@ What happens at the end of `input()` is that it waits for the user to type somet
 
 What you get from the `input()` function is always a string. What can you do with it?
 
-First: Make the string into a number. Let’s say you are 100% positive that the user entered a number. You can turn the string into an integer with the function `int()`. (Later we will see what to do when the user does NOT enter a number and you try to do this, for now, don’t worry about that problem). 
+First, make the string into a number. Let’s say you are 100% positive that the user entered a number. You can turn the string into an integer with the function `int()`. (Later we will see what to do when the user does NOT enter a number and you try to do this. For now, don’t worry about that problem) 
 
 Here is what this looks like:
 
@@ -77,4 +77,4 @@ print(name + " will be 100 years old in the year " + year)
 
 ## Summary
 
-This lesson introduced you to character input/output and string manipulation. We also saw how we can take user input, do some basic processing and provide feedback to the user, based on the input. In the following lab, we will see how to make output conditional to user input i.e. different processing and output messages based on input.   
+This lesson introduced you to character input/output and string manipulation. We also saw how we can take user input, do some basic processing and provide feedback to the user based on the input. In the following lab, we will see how to make output conditional to user input i.e. different processing and output messages based on input.   
