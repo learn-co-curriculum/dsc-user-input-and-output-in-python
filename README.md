@@ -2,13 +2,13 @@
 # User Input and Output in Python
 
 ## Introduction
-Sometimes, you'll want Python to ask users for a certain input. This is where user inputs can help!
 
+Sometimes, you'll want Python to ask users for a certain input. This is where user inputs can help!
 
 ## Objectives 
 
 You will be able to:
-- Get user input as strings and numbers, process the data, and output the results
+* Incorporate input/output functionality in code to allow for user interaction 
 
 ## User input in Python
 
