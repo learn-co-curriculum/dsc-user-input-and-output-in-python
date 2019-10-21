@@ -12,7 +12,7 @@ You will be able to:
 
 ## User input in Python
 
-To get user input in Python, the command you use is `input()`. You can store the result in a variable, and use it to your heart’s content. Remember that the result you get from the user will be a string, even if they enter a number.
+To get user input in Python, you can use the `input()` function. You can store the result in a variable, and use it to your heart’s content. Remember that the result you get from the user will be a string, even if they enter a number.
 
 For example, run the following cell:
 
@@ -26,7 +26,7 @@ print("Your name is " + name)
     Your name is Billy
 
 
-What happens at the end of `input()` is that it waits for the user to type something and press ENTER. Only after the user presses ENTER does the program continue.
+When you use the `input()` function, the program waits for the user to type something and press ENTER. Only after the user presses ENTER does the program continue.
 
 ## Manipulating strings (a few ways)
 
@@ -57,7 +57,7 @@ print ("You are " + str(age) + " years old")
     You are 43 years old
 
 
-## Example: 
+## Example
 Let's create a program that asks the user to enter their name, age, and the current year. Print out a message addressed to them that tells them the year that they will turn 100 years old.
 
 
@@ -77,4 +77,4 @@ print(name + " will be 100 years old in the year " + year)
 
 ## Summary
 
-This lesson introduced you to character input/output and string manipulation. We also saw how we can take user input, do some basic processing and provide feedback to the user based on the input. In the following lab, we will see how to make output conditional to user input i.e. different processing and output messages based on input.   
+This lesson introduced you to character input/output and string manipulation. We also saw how we can take user input, do some basic processing and provide feedback to the user based on the input. 
