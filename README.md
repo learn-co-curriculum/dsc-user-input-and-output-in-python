@@ -1,4 +1,3 @@
-
 # User Input and Output in Python
 
 ## Introduction
@@ -8,11 +7,12 @@ Sometimes, you'll want Python to ask users for a certain input. This is where us
 ## Objectives 
 
 You will be able to:
+
 * Incorporate input/output functionality in code to allow for user interaction 
 
 ## User input in Python
 
-To get user input in Python, you can use the `input()` function. You can store the result in a variable, and use it to your heart’s content. Remember that the result you get from the user will be a string, even if they enter a number.
+To get user input in Python, you can use the `input()` function. You can store the result in a variable, and use it to your heart's content. Remember that the result you get from the user will be a string, even if they enter a number.
 
 For example, run the following cell:
 
